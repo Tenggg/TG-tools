@@ -1,2 +1,2 @@
-const demo = '888';
+const demo = '888s';
 console.log(demo);
