@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext js,ts  --max-warnings 5",
     "dev": "npx rollup -c",
-    "build": "npx rollup -c --environment NODE_ENV:production"
+    "build:pro": "npx rollup -c --environment NODE_ENV:production",
+    "build:dev": "npx rollup -c"
   },
   "keywords": [],
   "author": "",
